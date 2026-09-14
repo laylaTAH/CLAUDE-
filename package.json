@@ -1,0 +1,19 @@
+{
+  "name": "mon-agent-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}
